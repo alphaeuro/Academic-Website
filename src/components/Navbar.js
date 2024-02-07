@@ -20,4 +20,14 @@ const Navbar = () => {
   );
 };
 
+document.getElementById("newsButton").addEventListener("click", function(event) {
+  // Prevent the default behavior of the anchor tag (i.e., following the href)
+  event.preventDefault();
+
+  // Redirect to the news.js file
+  window.location.href = "src\components\news";
+});
+
+
+
 export default Navbar;
