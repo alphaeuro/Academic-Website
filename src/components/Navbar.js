@@ -1,6 +1,8 @@
 // Navbar.js
 import React from 'react';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 
 
@@ -10,17 +12,28 @@ const Navbar = () => {
     console.log('You clicked me!');
   }
   return (
-    <AppBar position="static" sx={{ backgroundColor: '#008080', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.4)' , justifyContent: 'space-between' , height: '50px' }}>
-      <Toolbar sx={{ padding: '0 1rem', display: 'flex', alignItems: 'right', justifyContent: 'flex-end' }}>
-      <Typography variant="h6" component="div" sx={{ display: 'flex', top: '-100px' }} style={{ fontFamily: 'Montserrat, sans-serif' }}>
-        </Typography>
-        <Button onClick={handleClick} color="inherit" sx={{ marginRight: '1rem', '&:hover': { backgroundColor: '#20b2aa' } }}>Home</Button>
-        <Button onClick={handleClick} color="inherit" sx={{ marginRight: '1rem', '&:hover': { backgroundColor: '#20b2aa' } }}>Dr. Somnath Ghosal</Button>
-        <Button onClick={handleClick} color="inherit" sx={{ marginRight: '1rem', '&:hover': { backgroundColor: '#20b2aa' } }}>Projects</Button>
-        <Button onClick={handleClick} color="inherit" sx={{ marginRight: '1rem', '&:hover': { backgroundColor: '#20b2aa' } }}>Publications</Button>
-        <Button onClick={handleClick} color="inherit" sx={{ marginRight: '1rem', '&:hover': { backgroundColor: '#20b2aa' } }}>News</Button>            
-      </Toolbar>
-    </AppBar>
+    <div class="header">
+    <div class="container">
+      <div class="logo"><a href="#"></a></div>
+        <div className='nav'>
+          <Button component={Link} to="/home"  >
+            Home
+          </Button>
+          <Button component={Link} to="/about"  >
+            About
+          </Button>
+          <Button component={Link} to="/news"  >
+            News
+          </Button>
+          <Button component={Link} to="/projects" >
+            Projects
+          </Button>
+          <Button component={Link} to="/publications" >
+            Publications
+          </Button>
+        </div>
+    </div>
+    </div>
   );
 };
 

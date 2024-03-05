@@ -1,5 +1,3 @@
-//Home ka code yaha edit karna
-//sir  ki photo "images" folder ke under mil jayega
 
 
 // import React, { useState } from "react";
