@@ -1,17 +1,22 @@
-function MyButton() {
-    return (
-      <button>
-        I'm a button
-      </button>
-    );
-  }
+
+import React from "react";
+import "./Home.css";
+
+const Publications = () => {
   
-  export default function MyApp() {
-    return (
-      <div>
-        <h1>Welcome to my app</h1>
-        <MyButton />
-      </div>
-    );
-  }
-  
+
+  return (
+    <div className="home-container">
+      
+          <h1>Dr. Somnath Ghosal</h1>
+          <h2>Publications</h2>
+          <p>
+            Brief introduction goes here. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+          </p>
+        </div>
+      
+  );
+};
+
+export default Publications;
