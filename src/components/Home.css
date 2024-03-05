@@ -13,14 +13,14 @@
     background-color: #ffffff;
   }
   
-  .container {
+  /* .container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
+  } */
   
   .header {
-    background: #333;
+    /* background: #333; */
     color: #fff;
   }
   
