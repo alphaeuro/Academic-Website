@@ -1,14 +1,33 @@
 // Navbar.js
 import React from 'react';
-import { AppBar, Toolbar, Typography } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <AppBar position="static">
-      <Toolbar>
-        <Typography variant="h6">Your Name</Typography>
-      </Toolbar>
-    </AppBar>
+    <div class="header">
+    <div class="container">
+      <div class="logo"><a href="#"></a></div>
+        <div className='nav'>
+          <Button component={Link} to="/home"  >
+            Home
+          </Button>
+          <Button component={Link} to="/about"  >
+            About
+          </Button>
+          <Button component={Link} to="/news"  >
+            News
+          </Button>
+          <Button component={Link} to="/projects" >
+            Projects
+          </Button>
+          <Button component={Link} to="/publications" >
+            Publications
+          </Button>
+        </div>
+    </div>
+    </div>
   );
 };
 

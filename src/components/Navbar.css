@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  min-height: 10vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on smaller screens */
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: -37px;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on smaller screens */
+  align-items: center;
+  margin-top: 10px; /* Add margin for better separation */
+}
+
+.nav a {
+  text-decoration: none;
+  padding-bottom: 2px;
+  margin-right: 0; /* Remove right margin on smaller screens */
+  margin-bottom: 10px; /* Add bottom margin for better separation */
+  color: black;
+  font-weight: 550;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav a::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: black;
+  transition: all ease 0.4s;
+}
+
+.nav a:hover::before {
+  width: 100%;
+}
+
+/* Media Query for Responsive Design */
+@media only screen and (min-width: 600px) {
+  .container {
+    flex-direction: row; /* Revert to horizontal layout on larger screens */
+    justify-content: space-around;
+  }
+
+  .nav {
+    flex-direction: row; /* Revert to horizontal layout on larger screens */
+    margin-top: 0;
+  }
+
+  .nav a {
+    margin-bottom: 0; /* Remove bottom margin on larger screens */
+    margin-right: 20px;
+  }
+}

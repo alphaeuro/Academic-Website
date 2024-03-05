@@ -1,14 +1,15 @@
 
 import React from "react";
+import "./Home.css";
 
-const Home = () => {
+const Publications = () => {
   
 
   return (
     <div className="home-container">
       
           <h1>Dr. Somnath Ghosal</h1>
-          <h2>Home</h2>
+          <h2>Publications</h2>
           <p>
             Brief introduction goes here. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit.
@@ -18,4 +19,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Publications;
