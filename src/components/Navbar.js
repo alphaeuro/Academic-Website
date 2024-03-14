@@ -26,7 +26,7 @@ const Navbar = () => {
             News
           </Button>
           <Button component={Link} to="/projects" >
-            Projects
+            Research
           </Button>
           <Button component={Link} to="/publications" >
             Publications
@@ -38,3 +38,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+//
+
