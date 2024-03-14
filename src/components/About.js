@@ -93,30 +93,33 @@ const About = () => {
           <div className="responsibility-item">
             <div className="responsibility-image-container">
               <img src="https://via.placeholder.com/150" alt="Responsibility 1" />
-              <div className="responsibility-date">September 2023 - December 2023</div>
+              {/* <div className="responsibility-date">September 2023 - December 2023</div> */}
             </div>
             <div className="responsibility-details">
-              <h3>Responsibility 1</h3>
+              {/* <h3>Responsibility 1</h3> */}
+              <h4>September 2023 - December 2023</h4>
               <p>Resource Person, upskilling Leadership Qualities of Sabhapaties for Rural Transformation and Modern Agricultural Practices, Department of Panchayats and Rural Development, Govt. of West Bengal.</p>
             </div>
           </div>
           <div className="responsibility-item">
             <div className="responsibility-image-container">
               <img src="https://via.placeholder.com/150" alt="Responsibility 2" />
-              <div className="responsibility-date">2017-2019</div>
+              {/* <div className="responsibility-date">2017-2019</div> */}
             </div>
             <div className="responsibility-details">
-              <h3>Responsibility 2</h3>
+              {/* <h3>Responsibility 2</h3> */}
+              <h4>2017-2019</h4>
               <p>Member, National Level Monitoring Programme, Ministry of Rural Development, Government of India.</p>
             </div>
           </div>
           <div className="responsibility-item">
             <div className="responsibility-image-container">
               <img src="https://via.placeholder.com/150" alt="Responsibility 3" />
-              <div className="responsibility-date">April 2010 - June 2010</div>
+              {/* <div className="responsibility-date">April 2010 - June 2010</div> */}
             </div>
             <div className="responsibility-details">
-              <h3>Responsibility 3</h3>
+              {/* <h3>Responsibility 3</h3> */}
+              <h4>April 2010 - June 2010</h4>
               <p>Research Assistant for GIS4EU project, Centre for Geospatial Science (CGS), University of Nottingham, UK.</p>
             </div>
           </div>
