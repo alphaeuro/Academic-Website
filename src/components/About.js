@@ -16,11 +16,11 @@ const About = () => {
             <br />
             Centre for Rural Development in Innovative & Sustainable Technology, IIT Kharagpur</h4>
           <div className="contact-icons">
-            <a href="tel:1234567890" className="icon-link"><FaPhone /> </a>
-            <a href="mailto:example@example.com" className="icon-link"><FaEnvelope /></a>
-            <a href="https://www.youtube.com/channel/your-channel" className="icon-link"><FaYoutube /></a>
-            <a href="https://twitter.com/your-twitter" className="icon-link"><FaTwitter /></a>
-            <a href="https://www.facebook.com/your-facebook" className="icon-link"><FaFacebook /></a>
+            <a href="tel:+91(0)3222283894" className="icon-link"><FaPhone /> </a>
+            <a href="mailto:drsomnathghosal@gmail.com" className="icon-link"><FaEnvelope /></a>
+            <a href="https://www.youtube.com/@somnathghosal8947" className="icon-link"><FaYoutube /></a>
+            <a href="https://twitter.com/SomnathGhosal13" className="icon-link"><FaTwitter /></a>
+            <a href="https://www.facebook.com/drsomnathghosal" className="icon-link"><FaFacebook /></a>
           </div>
         </div>
       </div>
@@ -30,18 +30,18 @@ const About = () => {
         <div className="education-container">
           <div className="education-item">
             <img src="https://via.placeholder.com/150" alt="Education 1" />
-            <p>Education 1 description</p>
-            <p>Date</p>
+            <p>MA in Geography,<br></br> Visva-Bharati University, India</p>
+            <p>2005</p>
           </div>
           <div className="education-item">
             <img src="https://via.placeholder.com/150" alt="Education 2" />
-            <p>Education 2 description</p>
-            <p>Date</p>
+            <p>MSc in Human Geography, School of Geography, University of Nottingham, UK</p>
+            <p>2006</p>
           </div>
           <div className="education-item">
             <img src="https://via.placeholder.com/150" alt="Education 3" />
-            <p>Education 3 description</p>
-            <p>Date</p>
+            <p>PhD in Environment & Society, School of Geography, University of Nottingham, UK</p>
+            <p>2010</p>
           </div>
         </div>
       </div>
