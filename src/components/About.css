@@ -1,0 +1,228 @@
+/* Container for the entire About section */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+/* Container for the image and text */
+.image-and-text-container {
+  display: flex;
+flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Container for the image */
+.image-container {
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width as needed*/
+}
+
+/* Style for the image */
+.about-image {
+  width: 100%;
+  height: 500px;
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+/* Container for the text */
+.text-container {
+  width: 100%;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 20px;
+}
+
+/* Style for the text paragraph */
+.text-container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Media query for responsiveness */
+@media (min-width: 768px) {
+  .image-and-text-container {
+    flex-direction: row; /* Make image and text side by side */
+    justify-content: center; /* Center them */
+    align-items: center; /* Align items vertically */
+  }
+
+  .image-container, .text-container {
+    width: 50%; /* Adjust so they take up half of the container each */
+  }
+
+  /* Optional: Adjust margins/padding as necessary for spacing */
+}
+
+/* Style for contact icons */
+.contact-icons {
+  margin-top: 20px;
+  display: flex;
+}
+
+/* Style for each icon */
+.icon-link {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #333;/* Adjust the color as needed */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for icons */
+.icon-link:hover {
+  color: #007bff; /* Adjust the hover color as needed */
+}
+
+/*Styles for Education section */
+.education-section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 70%;
+}
+
+.education-container {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+  width: 100%;
+  max-width: 1400px; 
+}
+
+.education-item {
+  text-align: center;
+  width: 25%; /* Adjust as needed */
+  margin: 20px;
+}
+
+.education-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Styles for Experience section */
+.experience-section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.timeline-content {
+  width:100%;
+}
+
+.timeline-date {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+  position: relative;
+  padding-left: 40px;
+}
+
+@media (min-width: 768px) {
+  .timeline-item {
+    flex-direction:row;
+    justify-content: space-between;
+  }
+
+  .timeline-content,
+  .timeline-date {
+    width: 45%;
+  }
+
+  .timeline-line {
+    left: 45%;
+  }
+}
+
+/* Styles for Responsibilities section */
+.responsibilities-section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.responsibilities-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.responsibility-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.responsibility-image-container {
+  position: relative;
+  width: 200px;
+  margin-right: 40px;
+}
+
+.responsibility-image-container img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.responsibility-date {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+}
+
+.responsibility-details {
+  width: 100%;
+}
+
+.responsibility-details h3 {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .responsibility-item {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .responsibility-details {
+    width: 60%;
+  }
+}
