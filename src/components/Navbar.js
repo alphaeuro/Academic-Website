@@ -12,9 +12,9 @@ const Navbar = () => {
     console.log('You clicked me!');
   }
   return (
-    <div class="header">
-    <div class="container">
-      <div class="logo"><a href="#"></a></div>
+    <div className="header">
+    <div className="container">
+      <div className="logo"><a href="#"></a></div>
         <div className='nav'>
           <Button component={Link} to="/home"  >
             Home
