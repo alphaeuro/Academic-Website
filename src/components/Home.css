@@ -65,13 +65,13 @@ body, html {
   padding: 1rem;
 }
 .logo-image {
-  height: 300px;
-  width: 300px;
-  margin: 100px;
+  height: 3px;
+  width: 3px;
+  margin: 10px;
   float: left; /* Float the logo image to the left */
 }
 
 .intro-container {
-  margin-top: 150px; /* Adjust the top margin to align with the logo image */
+  margin-top: 15px; /* Adjust the top margin to align with the logo image */
   margin-left: 20px; /* Add some left margin for spacing */
 }
