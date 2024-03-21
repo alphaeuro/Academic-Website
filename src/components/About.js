@@ -11,7 +11,7 @@ const About = () => {
           <img src="https://source.unsplash.com/NXiIVnzBwZ8" alt="Jane Writer" className="about-image" />
         </div>
         <div className="text-container">
-          <h1>Dr Somnath Ghoshal</h1>
+          <h1>Dr Somnath Ghosal</h1>
           <h4>Assistant Professor
             <br />
             Centre for Rural Development in Innovative & Sustainable Technology, IIT Kharagpur</h4>
