@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import News from './components/News'; 
-import Projects from './components/Projects'; 
+import Research from './components/research'; 
 import Publications from './components/Publications'; 
 import About from './components/About';
 
@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/news" element={<News/>} />
           <Route path="/about" element={<About/>} />
-          <Route path="/projects" element={<Projects/>} />
+          <Route path="/research" element={<Research/>} />
           <Route path="/publications" element={<Publications/>} />
           <Route path="/" element={<Home/>} />
           <Route path="/home" element={<Home/>} />

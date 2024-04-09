@@ -3,16 +3,16 @@ import React, { useState } from 'react';
 import './Home.css'; // Make sure the CSS file is correctly linked
 import logoImage from '../images/image.png';
 import profileImage from '../images/profilepic.jpeg'
-// adding carousel:
-// URLs or import statements for your images
-const carouselImages = [
-  '../images/c1.jpg',
-  '../images/c2.jpg',
-  '../images/c3.jpg',
-  '../images/c4.jpg',
-  '../images/c5.jpg',
-];
+import YouTubeSection from './youtubesection';
+import ContactSection from './contact';
+// Importing carousel images
+import c1 from '../images/c1.JPG';
+import c2 from '../images/c2.JPG';
+import c3 from '../images/c3.jpg';
+import c4 from '../images/c4.jpg';
+import c5 from '../images/c5.jpg';
 
+const carouselImages = [c1, c2, c3, c4, c5];
 
 const Home = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -60,6 +60,9 @@ const Home = () => {
         </div>
         
       </div>
+      <h3>See more about our Projects...</h3>
+      <YouTubeSection />
+      <ContactSection />
       
       {/* More sections can be added here following the same pattern */}
     </div>
@@ -67,3 +70,5 @@ const Home = () => {
 };
 
 export default Home;
+
+

@@ -1,0 +1,48 @@
+.contact-section {
+    width: 80%; /* Matching the carousel's width */
+    height: 380px; /* Half the carousel's height */
+    margin: 20px auto 0 auto; /* Vertical margins can be adjusted as needed, horizontal margins auto for centering */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+    position:static; 
+    border-radius: 5px;
+    box-sizing: border-box; 
+  }
+  
+  .contact-details {
+    flex: 1;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+  }
+  
+  .contact-map {
+    flex: 1;
+    height: 100%;
+  }
+  
+  .contact-map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .contact-section {
+      flex-direction: column;
+      height: auto; /* Let the height grow as needed for stacked layout */
+      width: 100%; /* Let the contact section take full width on smaller screens */
+    }
+  
+    .contact-map,
+    .contact-details {
+      width: 100%;
+    }
+  }
+  

@@ -25,7 +25,7 @@ const Navbar = () => {
           <Button component={Link} to="/news"  >
             News
           </Button>
-          <Button component={Link} to="/projects" >
+          <Button component={Link} to="/research" >
             Research
           </Button>
           <Button component={Link} to="/publications" >
