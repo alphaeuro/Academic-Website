@@ -22,14 +22,14 @@ const Navbar = () => {
           <Button component={Link} to="/about"  >
             About
           </Button>
-          <Button component={Link} to="/news"  >
-            News
+          <Button component={Link} to="/publications" >
+            Publications
           </Button>
           <Button component={Link} to="/research" >
             Research
           </Button>
-          <Button component={Link} to="/publications" >
-            Publications
+          <Button component={Link} to="/news"  >
+            News
           </Button>
         </div>
     </div>
