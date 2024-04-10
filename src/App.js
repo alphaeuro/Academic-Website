@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import News from './components/News'; 
 import Research from './components/research'; 
-import Publications from './components/Publications'; 
+import Publications from './components/publications'; 
 import About from './components/About';
 
 function App() {
