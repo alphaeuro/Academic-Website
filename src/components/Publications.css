@@ -22,9 +22,7 @@
   
   /* Style for the image */
   .pub-image {
-    width: 100%;
-    height: 500px;
-    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    width: 100%; /* Optional: Add border-radius for rounded corners */
   }
   
   /* Container for the text */
