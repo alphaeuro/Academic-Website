@@ -9,7 +9,7 @@
 /* Container for the image and text */
 .image-and-text-container {
   display: flex;
-flex-direction: column;
+  flex-direction: column;
   align-items: center;
   width: 100%;
 }
@@ -133,6 +133,7 @@ flex-direction: column;
 
 .timeline-content {
   width:100%;
+  text-align: center;
 }
 
 .timeline-date {
@@ -225,4 +226,83 @@ flex-direction: column;
   .responsibility-details {
     width: 60%;
   }
+}
+
+
+/* Styles for Awards and Honours section */
+.awards-section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 70%;
+}
+
+.awards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.award-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(50% - 20px); /* Two items per row with spacing */
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+.award-item img {
+  width: 80%; /* Adjust as needed */
+   /* Adjust as needed */
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.award-item p {
+  text-align: center;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .awards-container {
+    justify-content: flex-start;
+  }
+
+  .award-item {
+    width: calc(33.33% - 20px); /* Three items per row with spacing */
+  }
+}
+
+@media (max-width: 480px) {
+  .award-item {
+    width: 100%; /* Single item per row on smaller screens */
+  }
+}
+
+
+/* Courses Section */
+.courses-section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 70%;
+}
+
+.courses-container {
+  display: flex;
+  flex-direction: column;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+}
+
+.course-item {
+  width: 100%;
+  /* margin-bottom: 5px; */
+  /* text-align: center; */
 }
