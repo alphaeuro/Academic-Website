@@ -58,7 +58,8 @@
     width: 70%;
   }
   .publi-section h2 {
-    min-height: 7vh;
+    max-height: 4vh;
+    min-height: 4vh;
   }
   
   .publi-content {
@@ -70,7 +71,10 @@
   }
   .publi-content h3 {
     font-size: 20px;
-    min-height: 4vh;
+    /* min-height: 4vh; */
+  }
+  .publi-content li {
+    /* min-height: 4vh; */
   }
   
   /* Responsive CSS */

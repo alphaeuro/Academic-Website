@@ -1,14 +1,32 @@
 import React from 'react';
 import './About.css';
 import { FaPhone, FaEnvelope, FaYoutube, FaTwitter, FaFacebook } from 'react-icons/fa'; // Import icons from Font Awesome library
-
+import Msc from '../images/MSc2005.jpg'
+import Phd from '../images/PhD2010.jpg'
+import Profile from '../images/Profile-2.jpg'
+import US10 from "../images/US 2010.jpg"
+import ISSC from "../images/46 ISSC.jpg"
+import Canada from "../images/Canada 2019.jpg"
+import China from "../images/China 2012.jpg"
+import ICPP4 from "../images/ICPP4 2019.jpg"
+import IISF from "../images/IISF 2022.jpg"
+import Indonesia from "../images/Indonesia 2011.jpg"
+import IWIS from "../images/IWIS 2019.jpg"
+import Najin from "../images/Najin 2015.jpg"
+import Netherlands from "../images/Netherlands 2013 -2.jpg"
+import Roman from "../images/Romanian Academy of Science 2017.jpg"
+import Royal from "../images/Royal Holloway 2018.jpg"
+import Seoul1 from "../images/Seoul National Uni 2016 - 2.jpg"
+import Seoul2 from "../images/Seoul2.jpg"
+import Tech4Seva from "../images/Tech4Seva 2019.jpg"
+import US from "../images/US 2010 -2.jpg"
 const About = () => {
   return (
     <div className="about-container">
       {/* Container for the image and text side by side */}
       <div className="image-and-text-container">
         <div className="image-container">
-          <img src="https://source.unsplash.com/NXiIVnzBwZ8" alt="Jane Writer" className="about-image" />
+          <img src={Profile} alt="Somnath Ghosal" className="about-image" />
         </div>
         <div className="text-container">
           <h1>Dr Somnath Ghosal</h1>
@@ -32,12 +50,12 @@ const About = () => {
             {/* <p>2005</p> */}
           </div>
           <div className="education-item">
-            <img src="https://via.placeholder.com/150" alt="Education 2" />
+            <img src={Msc} alt="Education 2" />
             <p>MSc in Human Geography, School of Geography, University of Nottingham, UK <br></br> 2006</p>
             {/* <p>2006</p> */}
           </div>
           <div className="education-item">
-            <img src="https://via.placeholder.com/150" alt="Education 3" />
+            <img src={Phd} alt="Education 3" />
             <p>PhD in Environment & Society, School of Geography, University of Nottingham, UK<br></br>2010</p>
             {/* <p>2010</p> */}
           </div>
@@ -90,7 +108,7 @@ const About = () => {
         <div className="responsibilities-container">
           <div className="responsibility-item">
             <div className="responsibility-image-container">
-              <img src="https://via.placeholder.com/150" alt="Responsibility 1" />
+              <img src={IWIS} alt="Responsibility 1" />
               {/* <div className="responsibility-date">September 2023 - December 2023</div> */}
             </div>
             <div className="responsibility-details">
@@ -101,7 +119,7 @@ const About = () => {
           </div>
           <div className="responsibility-item">
             <div className="responsibility-image-container">
-              <img src="https://via.placeholder.com/150" alt="Responsibility 2" />
+              <img src={Tech4Seva} alt="Responsibility 2" />
               {/* <div className="responsibility-date">2017-2019</div> */}
             </div>
             <div className="responsibility-details">
@@ -112,7 +130,7 @@ const About = () => {
           </div>
           <div className="responsibility-item">
             <div className="responsibility-image-container">
-              <img src="https://via.placeholder.com/150" alt="Responsibility 3" />
+              <img src={US10} alt="Responsibility 3" />
               {/* <div className="responsibility-date">April 2010 - June 2010</div> */}
             </div>
             <div className="responsibility-details">
@@ -140,11 +158,11 @@ const About = () => {
             <p>Patent Filed on Low-Cost Drinking Water Filtration System <br></br>2021</p>
           </div>
           <div className="award-item">
-            <img src="https://via.placeholder.com/150" alt="Award 4" />
+            <img src={Seoul2} alt="Award 4" />
             <p>Copy Right Certificate for Designing Purified Drinking Water Distribution at Nominal Cost<br></br>2018</p>
           </div>
           <div className="award-item">
-            <img src="https://via.placeholder.com/150" alt="Award 5" />
+            <img src={Seoul1} alt="Award 5" />
             <p>Glory of India Award <br></br>2013</p>
           </div>
         </div>
