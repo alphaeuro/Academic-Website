@@ -5,7 +5,14 @@
   align-items: center;
   padding: 40px;
   background-attachment: fixed;
+  position: relative;
+  padding: 30px;
+  background-attachment: fixed;
+  min-height: 100vh; /* Ensure it's at least the height of the viewport */
+  min-height: calc(100vh - 10px); /* Adjust 120px to the height of your footer */
+  padding-bottom: 120px; /* Same as the height of your footer */
 }
+
 .text-container p, .text-container h1, .text-container h2 {
   transition: color 0.3s ease-in-out;
 }

@@ -33,7 +33,8 @@ const Home = () => {
           <img src={logoImage} alt="Logo" className="home-image" />
         </div>
         <div className="text-container1" >
-          <h1>Rural Geography Research Group public Policy, Planning, and Development</h1>
+          <h1>Rural Geography Research Group - public Policy, Planning, and Development</h1>
+          
           <p>The research group primarily focuses on Community participation in research, Science and public policy integration, Sustainable regional planning, Skill development for livelihoods, Rural infrastructure improvement, Social forestry and entrepreneurship</p>
         </div>
       </div>
