@@ -1,48 +1,26 @@
-.contact-section {
-    width: 80%; /* Matching the carousel's width */
-    height: 380px; /* Half the carousel's height */
-    margin: 20px auto 0 auto; /* Vertical margins can be adjusted as needed, horizontal margins auto for centering */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: white;
-    overflow: hidden;
-    position:static; 
-    border-radius: 5px;
-    box-sizing: border-box; 
-  }
-  
-  .contact-details {
-    flex: 1;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.6);
+/* Footer.css */
+.footer {
+  width: 73%;
+  height:5%;
+  background-color: #424141;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+  bottom: 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds depth */
+  border-radius: 5px; /* Optional: for rounded corners */
     box-sizing: border-box;
+}
+
+.footer-content p {
+  margin: 0;
+  padding: 5px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .footer-content p {
+    font-size: 14px;
   }
-  
-  .contact-map {
-    flex: 1;
-    height: 100%;
-  }
-  
-  .contact-map iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .contact-section {
-      flex-direction: column;
-      height: auto; /* Let the height grow as needed for stacked layout */
-      width: 100%; /* Let the contact section take full width on smaller screens */
-    }
-  
-    .contact-map,
-    .contact-details {
-      width: 100%;
-    }
-  }
-  
+}
