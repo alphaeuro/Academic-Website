@@ -61,7 +61,7 @@ const Research = () => {
 
     <div className="research-page">
       <div className="research-container">
-        <h1 className="research-header">Research Verticals</h1>
+        {/* <h1 className="research-header">Research Verticals</h1> */}
         <div className="research-projects">
           {researchProjects.map((project, index) => (
             <div key={index} className="research-project" onClick={() => setSelectedProject(project)}>
