@@ -1,13 +1,5 @@
-import React from 'react';
-import './news.css'; // Import CSS file for styling
-import News1 from "../images/news1.jpeg"
-import News2 from "../images/News2.png"
-import News3 from "../images/News3.png"
-import News4 from "../images/News4.jpeg"
-import News5 from "../images/News5.jpeg"
-import News6 from "../images/News6.jpeg"
-// import News7 from "../images/News7.jpeg"
-// import News8 from "../images/News8.png"
+import React from "react";
+import "./Home.css";
 
 const News = () => {
   // Array of newspaper cutting image URLs
@@ -19,11 +11,17 @@ const News = () => {
     News5,
     News6
   ];
-  
+
   return (
-    <div className="newspaper-cuttings-container">
+    <div className="home-container">
+      <h1>Dr. Somnath Ghosal</h1>
+      <h2>News</h2>
+      <p>
+        Brief introduction goes here. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.
+      </p>
       {newspaperCuttings.map((cutting, index) => (
-        <img key={index} src={cutting} alt={`Newspaper cutting ${index + 1}`} className="newspaper-cutting" />
+        <img key={index} src={cutting} alt={`News ${index + 1}`} />
       ))}
     </div>
   );
