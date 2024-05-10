@@ -19,7 +19,7 @@ const News = () => {
     News5,
     News6
   ];
-
+  
   return (
     <div className="newspaper-cuttings-container">
       {newspaperCuttings.map((cutting, index) => (
