@@ -25,7 +25,7 @@ const News = () => {
   return (
     <div className="home-container">
       
-      <h2>News</h2>
+      <h1>News</h1>
       
       {newspaperCuttings.map((cutting, index) => (
         <img key={index} src={cutting} alt={`News ${index + 1}`} />
