@@ -35,3 +35,13 @@ a {
 h4{
   font-size: 15px;
 }
+
+.contact-section {
+  margin-bottom: 0;
+}
+a {
+  color:aliceblue; /* Specify your desired color */
+}
+h4{
+  font-size: 15px;
+}
