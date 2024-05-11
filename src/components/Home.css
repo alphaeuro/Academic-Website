@@ -10,7 +10,7 @@
   background-attachment: fixed;
   min-height: 100vh; /* Ensure it's at least the height of the viewport */
   min-height: calc(100vh - 10px); /* Adjust 120px to the height of your footer */
-  padding-bottom: 120px; /* Same as the height of your footer */
+  padding-bottom: 0px; /* Same as the height of your footer */
 }
 
 .text-container p, .text-container h1, .text-container h2 {
@@ -78,15 +78,20 @@
   }
 
   .text-container1 {
-  flex-basis: 60%; /* Allocates 60% of the container's width to the text */
-  text-align:left; /* Aligns the text to the left */
+  flex-basis: 65%; /* Allocates 60% of the container's width to the text */
+  text-align:inherit; /* Aligns the text to the left */
   padding-left: 20px; /* Optional: Adds some padding to the left of the text */
-  margin: 40px;
+  margin: 20px;
+  
+  
 }
 .text-container2 {
   flex-basis: 60%; /* Allocates 60% of the container's width to the text */
   text-align: left; /* Aligns the text to the right */
   padding-left: 50px; /* Optional: Adds some padding to the left of the text */
+  a {
+    color:rgb(33, 7, 80); /* Specify your desired color */
+  }
 }
 }
 
@@ -156,4 +161,24 @@ button:hover {
 
 html {
   scroll-behavior: smooth;
+}
+.contact-section {
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-inline-start: 20px; /* Adjust the indentation of the bullet points */
+}
+
+li {
+  margin-bottom: 0px; /* Adjust this value to reduce or increase the gap */
+  margin-top: 2px;
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.contact-section {
+  margin-bottom: 0;
 }
