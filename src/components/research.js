@@ -61,7 +61,7 @@ const Research = () => {
 
     <div className="research-page">
       <div className="research-container">
-        {/* <h1 className="research-header">Research Verticals</h1> */}
+         <h1 className="research-header">Qualitative and Archival Research</h1> 
         <div className="research-projects">
           {researchProjects.map((project, index) => (
             <div key={index} className="research-project" onClick={() => setSelectedProject(project)}>
@@ -78,7 +78,7 @@ const Research = () => {
             <p>{selectedProject.content}</p>
           </div>
         ) : (
-          <h4>Dr. Somnath Ghosal's extensive research at the Indian Institute of Technology Kharagpur delves into the intricate relationship between community participation and sustainable development. His work prominently focuses on integrating community insights into the development of rural infrastructures like education, health services, and drinking water systems. His innovative approach in green urban planning and biodiversity conservation showcases a commitment to enhancing environmental sustainability through action-oriented research. Dr. Ghosal's projects are a testament to the pivotal role that informed scientific research plays in shaping effective public policy and advancing societal progress.</h4>
+          <h4>Dr. Somnath Ghosal's extensive research at the Indian Institute of Technology Kharagpur delves into the intricate relationship between community participation and sustainable development. His work prominently focuses on integrating community insights into the development of rural infrastructures like education, health services, and drinking water systems. His innovative approach in green urban planning and biodiversity conservation showcases a commitment to enhancing environmental sustainability through action-oriented research. Dr. Ghosal's projects are a testament to the pivotal role that informed scientific research plays in shaping effective public policy and advancing societal progress.<br></br><br></br> <br></br><br></br><br></br>Click on the projects to know more.</h4>
         )}
       </div>
     </div>

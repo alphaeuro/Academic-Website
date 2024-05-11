@@ -25,11 +25,11 @@
   }
   
   .research-project {
-    background: #f5f6f7;
+    background: #cdd4d8;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.5 ease, box-shadow 0.s ease;
   }
   
   .research-project:hover {
@@ -73,10 +73,10 @@
   .project-information {
     height:390px; 
     width: 380px;
-    position: fixed; /* Keeps the div in place while scrolling */
+    position:sticky; /* Keeps the div in place while scrolling */
     top: 0; /* Aligns the top of the div with the top of the viewport */
     right: 0; /* Aligns the div on the right side of the viewport */
-    background: #e0e6eb;
+    background: #dae2e7;
     padding: 20px;
     border-radius: 10px;
     overflow-y: auto; /* Adds scroll inside the div if content is too long */

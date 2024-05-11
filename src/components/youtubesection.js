@@ -1,23 +1,27 @@
 import React from 'react';
 import './youtubesection.css'; 
+import Drinkingwater from '../images/drinkwat.webp';
+import Girlstoiletimage from '../images/girlstoilet.webp';
+import Bluetreasuresimage from '../images/bluetreas.webp';
 
 const youtubeVideos = [
   {
-    title: 'Portable Water Facility Development for Rural School',
-    thumbnail: 'https://i.ytimg.com/an_webp/tt47Ut0a_Ls/mqdefault_6s.webp?du=3000&sqp=CI7lvbEG&rs=AOn4CLASwTVW2dFwir4HNuXHbnvPc24Teg',
+    title: 'Potable Water Facility Development for Rural Areas',
+    thumbnail: Drinkingwater,
     videoUrl: 'https://youtu.be/tt47Ut0a_Ls?si=0iDIyXUeOpEYxDEh',
   },
   {
     title: 'Blue Treasures: Water For Commons',
-    thumbnail: 'https://i.ytimg.com/an_webp/jxcya1O4HD8/mqdefault_6s.webp?du=3000&sqp=CI62vbEG&rs=AOn4CLDTfQWg63VpScWJFuHwvEySUVs6gA',
+    thumbnail: Girlstoiletimage,
     videoUrl: 'https://youtu.be/jxcya1O4HD8?si=lZoPUvDQPS7beghd',
   },
   {
-    title: 'Mission for Girls Toilet Facility Development in Rural Schools',
-    thumbnail: 'https://i.ytimg.com/an_webp/a2f5CUvAdaQ/mqdefault_6s.webp?du=3000&sqp=CPDEvbEG&rs=AOn4CLDGqxTjocfL_BRA4HQgqw6s_vZV0Q',
+    title: 'Mission for Girls Toilet Facility Development in Rural Areas',
+    thumbnail: Bluetreasuresimage,
     videoUrl: 'https://youtu.be/a2f5CUvAdaQ?si=aZCHxkgYNologAwe',
   },
 ];
+
 
 const YouTubeSection = () => {
   return (
