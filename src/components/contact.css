@@ -1,26 +1,37 @@
 /* Footer.css */
 .footer {
   width: 73%;
-  height:5%;
+  height:370px;
   background-color: #424141;
   color: white;
   text-align: center;
-  padding: 30px 0;
+  padding: 20px 0;
   position: relative;
   bottom: 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds depth */
   border-radius: 5px; /* Optional: for rounded corners */
     box-sizing: border-box;
+  
 }
 
 .footer-content p {
   margin: 0;
-  padding: 5px;
-  font-size: 16px;
+  padding: 0px;
+  font-size: 17px;
 }
 
 @media (max-width: 768px) {
   .footer-content p {
-    font-size: 14px;
+    font-size: 15px;
   }
+}
+
+.contact-section {
+  margin-bottom: 0;
+}
+a {
+  color:aliceblue; /* Specify your desired color */
+}
+h4{
+  font-size: 15px;
 }
