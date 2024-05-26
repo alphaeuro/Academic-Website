@@ -251,6 +251,7 @@
   flex-direction: column;
   align-items: center;
   width: calc(50% - 20px); /* Two items per row with spacing */
+  height:fit-content;
   margin-bottom: 40px;
   margin-right: 20px;
 }
@@ -258,13 +259,13 @@
 .award-item img {
   width: 80%; /* Adjust as needed */
    /* Adjust as needed */
-  border-radius: 50%;
+  border-radius: 70%;
   margin-bottom: 20px;
 }
 
 .award-item p {
   text-align: center;
-  margin: 0;
+  margin: 10%;
 }
 
 @media (min-width: 768px) {
