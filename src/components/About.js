@@ -2,8 +2,9 @@ import React from 'react';
 import './About.css';
 import { FaPhone, FaEnvelope, FaYoutube, FaTwitter, FaFacebook } from 'react-icons/fa'; // Import icons from Font Awesome library
 import Msc from '../images/MSc2005.jpg'
+import ma from '../images/visva2005.JPG'
 import Phd from '../images/PhD2010.jpg'
-import Profile from '../images/Profile-2.jpg'
+import Profile from '../images/aboutpic.jpg'
 import US10 from "../images/US 2010.jpg"
 import ISSC from "../images/46 ISSC.jpg"
 import Canada from "../images/Canada 2019.jpg"
@@ -18,6 +19,8 @@ import Roman from "../images/Romanian Academy of Science 2017.jpg"
 import Royal from "../images/Royal Holloway 2018.jpg"
 import Seoul1 from "../images/Seoul National Uni 2016 - 2.jpg"
 import Seoul2 from "../images/Seoul2.jpg"
+import Seoul3 from "../images/glory.jpg"
+import Seoul4 from "../images/copyright.jpg"
 import Tech4Seva from "../images/Tech4Seva 2019.jpg"
 import US from "../images/US 2010 -2.jpg"
 const About = () => {
@@ -30,7 +33,7 @@ const About = () => {
         </div>
         <div className="text-container">
           <h1>Dr Somnath Ghosal</h1>
-          <h4>Assistant Professor,<br/>Centre for Rural Development & Innovative Sustainable Technology,<br/>IIT Kharagpur</h4>
+          <h4>Assistant Professor<br/>Centre for Rural Development & Innovative Sustainable Technology,<br/>IIT Kharagpur</h4>
           <div className="contact-icons">
             <a href="tel:+91(0)3222283894" className="icon-link"><FaPhone /> </a>
             <a href="mailto:drsomnathghosal@gmail.com" className="icon-link"><FaEnvelope /></a>
@@ -45,18 +48,18 @@ const About = () => {
         <h1>Education</h1>
         <div className="education-container">
           <div className="education-item">
-            <img src="https://via.placeholder.com/150" alt="Education 1" />
-            <p>MA in Geography,<br></br> Visva-Bharati University, India <br></br> 2005</p>
+            <img src = {Msc} alt="Education 1" />
+            <p>MA in Geography<br></br> Visva-Bharati University, India <br></br> 2005</p>
             {/* <p>2005</p> */}
           </div>
           <div className="education-item">
-            <img src={Msc} alt="Education 2" />
-            <p>MSc in Human Geography, School of Geography, University of Nottingham, UK <br></br> 2006</p>
+            <img src={ma} alt="Education 2" />
+            <p>MSc in Human Geography School of Geography, University of Nottingham, UK <br></br> 2006</p>
             {/* <p>2006</p> */}
           </div>
           <div className="education-item">
             <img src={Phd} alt="Education 3" />
-            <p>PhD in Environment & Society, School of Geography, University of Nottingham, UK<br></br>2010</p>
+            <p>PhD in Environment & Society School of Geography, University of Nottingham, UK<br></br>2010</p>
             {/* <p>2010</p> */}
           </div>
         </div>
@@ -66,37 +69,37 @@ const About = () => {
         <h1>Experience</h1>
         <div className="timeline">
           <div className="timeline-item">
-            <div className="timeline-date">2008 - 2010</div>
+            <div className="timeline-date" style={{ fontWeight: 'bold' }}>2008 - 2010</div>
             <div className="timeline-content">
-              <p>Graduate level teaching assistant and demonstrator, School of Geography, University of Nottingham, UK</p>
+              <p>Graduate Level Teaching Assistant and Demonstrator School of Geography, University of Nottingham, UK</p>
             </div>
           </div>
           <div className="timeline-item">
-          <div className="timeline-date">2010 - 2013</div>
+          <div className="timeline-date" style={{ fontWeight: 'bold' }}>2010 - 2013</div>
             <div className="timeline-content">
               {/* <h3>Position 2</h3> */}
-              <p>Assistant Professor in Geography, University of Nottingham, UK</p>
+              <p>Assistant Professor in Geography <br></br>CSSS Calcutta</p>
             </div>
           </div>
           <div className="timeline-item">
-            <div className="timeline-date">2013 - 2014</div>
+            <div className="timeline-date" style={{ fontWeight: 'bold' }}>2013 - 2014</div>
             <div className="timeline-content">
               {/* <h3>Position 2</h3> */}
-              <p>Fellow, Interdisciplinary Doctoral Fellowship, The Graduate School, University of Minnesota</p>
+              <p>Fellow, Interdisciplinary Doctoral Fellowship <br></br> IDF Gurugram</p>
             </div>
           </div>
           <div className="timeline-item">
-            <div className="timeline-date">2015 - 2016</div>
+            <div className="timeline-date" style={{ fontWeight: 'bold' }}>2015 - 2016</div>
             <div className="timeline-content">
               {/* <h3>Position 2</h3> */}
-              <p>Research Fellow, Renmin University of China, Beijing</p>
+              <p>Research Fellow <br></br>Renmin University of China, Beijing</p>
             </div>
           </div>
           <div className="timeline-item">
-            <div className="timeline-date">2016 - Present</div>
+            <div className="timeline-date" style={{ fontWeight: 'bold' }}>2016 - Present</div>
             <div className="timeline-content">
               {/* <h3>Position 2</h3> */}
-              <p>Assistant Professor, Indian Institute of Technology Kharagpur</p>
+              <p>Assistant Professor<br></br> Indian Institute of Technology Kharagpur</p>
             </div>
           </div>
           {/* Add more timeline items as needed */}
@@ -146,23 +149,23 @@ const About = () => {
         <h1>Awards & Honours</h1>
         <div className="awards-container">
           <div className="award-item">
-            <img src="https://via.placeholder.com/150" alt="Award 1" />
+            <img src={Seoul2} alt="Award 1" />
             <p>Outstation Chairman for Rural Technology, Social Organizations, and Rural Development Thematic Panel of the 47th Indian Social Science Congress<br></br>2023</p>
           </div>
           <div className="award-item">
-            <img src="https://via.placeholder.com/150" alt="Award 2" />
+            <img src={ISSC} alt="Award 2" />
             <p>Outstation Chairman for Rural Technology, Social Organizations, and Rural Development Thematic Panel of the 46th Indian Social Science Congress <br></br>2022</p>
           </div>
           <div className="award-item">
-            <img src="https://via.placeholder.com/150" alt="Award 3" />
+            <img src={Seoul1} alt="Award 3" />
             <p>Patent Filed on Low-Cost Drinking Water Filtration System <br></br>2021</p>
           </div>
           <div className="award-item">
-            <img src={Seoul2} alt="Award 4" />
+            <img src={Seoul4} alt="Award 4" />
             <p>Copy Right Certificate for Designing Purified Drinking Water Distribution at Nominal Cost<br></br>2018</p>
           </div>
           <div className="award-item">
-            <img src={Seoul1} alt="Award 5" />
+            <img src={Seoul3} alt="Award 5" />
             <p>Glory of India Award <br></br>2013</p>
           </div>
         </div>

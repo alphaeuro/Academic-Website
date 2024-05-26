@@ -1,6 +1,7 @@
 import React from 'react';
 import './research.css';
 import { useState } from 'react';
+import yt from "../images/researchvideo.webp";
 
 
 // Sample data for research projects, you would replace this with actual data
@@ -45,7 +46,7 @@ const researchProjects = [
 
 const Research = () => {
   const [selectedProject, setSelectedProject] = useState(null);
-
+ 
   return (
     // <div className="research-container">
     //   <h1 className="research-header">Research Initiatives</h1>
@@ -71,6 +72,7 @@ const Research = () => {
           ))}
         </div>
       </div>
+      
       <div className="project-information">
         {selectedProject ? (
           <div>
@@ -81,7 +83,9 @@ const Research = () => {
           <h4>Dr. Somnath Ghosal's extensive research at the Indian Institute of Technology Kharagpur delves into the intricate relationship between community participation and sustainable development. His work prominently focuses on integrating community insights into the development of rural infrastructures like education, health services, and drinking water systems. His innovative approach in green urban planning and biodiversity conservation showcases a commitment to enhancing environmental sustainability through action-oriented research. Dr. Ghosal's projects are a testament to the pivotal role that informed scientific research plays in shaping effective public policy and advancing societal progress.<br></br><br></br> <br></br><br></br><br></br>Click on the projects to know more.</h4>
         )}
       </div>
-    </div>
+      
+      </div>
+    
   );
 };
 

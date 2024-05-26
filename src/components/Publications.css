@@ -46,7 +46,12 @@
       align-items: center; /* Align items vertically */
     }
   
-    .image-pub-container, .text-pub-container {
+    .image-pub-container{
+      width: 50%; 
+      position: center;
+      margin: 0 auto;
+    }
+    .text-pub-container {
       width: 50%; /* Adjust so they take up half of the container each */
     }
   

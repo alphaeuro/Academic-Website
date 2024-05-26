@@ -9,9 +9,9 @@ import ContactSection from './contact';
 import c2 from '../images/c2.JPG';
 import c3 from '../images/c3.jpg';
 import c4 from '../images/c4.jpg';
-import c5 from '../images/c5.jpg';
 
-const carouselImages = [c2, c3, c4, c5];
+
+const carouselImages = [c2, c3, c4];
 
 const Home = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -67,7 +67,7 @@ const Home = () => {
         </div>
         
       </div>
-      <h2>Know more about our Action Research Projects</h2>
+      <h2 style={{ textDecoration: 'underline' }}>Know more about our Action Research Projects</h2>
       <YouTubeSection />
       <ContactSection />
       

@@ -6,9 +6,7 @@ const Publications = () => {
     <div className="pub-container">
       {/* Container for the image and text side by side */}
       <div className="image-and-text-pub-container">
-        <div className="image-pub-container">
-          <img src="https://rukminim2.flixcart.com/image/850/1000/jpsnma80/book/2/9/3/sustainable-forestry-people-culture-and-economics-original-imafbyhvz8nz3apz.jpeg?q=90&crop=false" alt="Jane Writer" className="pub-image" />
-        </div>
+        
         {/* <div className="text-pub-container">
           <h3>Author of Sustainable Forestry: People, Culture and Economics<br/>ISBN: 978-81-910382-9-3<br/>L. G. Publishers Distributors, New Delhi, (2013)</h3>
         </div> */}
@@ -132,6 +130,9 @@ const Publications = () => {
               <li>‘Indian Heritage in Digital Space’ (IHDS) Workshop, CSIR–CEERI, BISR Jaipur (15th – 16th July, 2017). Title of the Presentation: ‘Digitization of Sacred Groves: Geo-Ecological Heritage of West Bengal’.</li>
               <li>International Conference on ‘Emerging Technologies in Agricultural and Food Engineering’, IIT Kharagpur (27th – 30th December, 2016). Co-chaired Technical session ‘Environmental Remediation Technologies’.</li>
             </ul>
+        </div>
+        <div className="image-pub-container">
+          <img src="https://rukminim2.flixcart.com/image/850/1000/jpsnma80/book/2/9/3/sustainable-forestry-people-culture-and-economics-original-imafbyhvz8nz3apz.jpeg?q=90&crop=false" alt="Jane Writer" className="pub-image" />
         </div>
       </div>
     </div>

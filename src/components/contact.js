@@ -12,7 +12,7 @@ const Footer = () => {
           <h4>Exploring innovative ideas and disseminating through technology transfer, adoption and diffusion to create a sustainable future.</h4>
         </div>
         <div className="footer-section contact">
-          <h2>Contact</h2>
+          <h2 style={{ textDecoration: 'underline' }}>Contact</h2>
           <p>Phone: +91 (0) 3222 283894</p>
           <p>Email: <a href="mailto:somnath@iitkgp.ac.in">somnath@iitkgp.ac.in</a>, <a href="mailto:drsomnathghosal@gmail.com">drsomnathghosal@gmail.com</a></p>
           <p>Website: <a href="/">www.somnathghosal.com</a></p>
