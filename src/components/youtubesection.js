@@ -12,12 +12,12 @@ const youtubeVideos = [
   },
   {
     title: 'Blue Treasures: Water For Commons',
-    thumbnail: Girlstoiletimage,
+    thumbnail: Bluetreasuresimage,
     videoUrl: 'https://youtu.be/jxcya1O4HD8?si=lZoPUvDQPS7beghd',
   },
   {
     title: 'Mission for Girls Toilet Facility Development in Rural Areas',
-    thumbnail: Bluetreasuresimage,
+    thumbnail: Girlstoiletimage,
     videoUrl: 'https://youtu.be/a2f5CUvAdaQ?si=aZCHxkgYNologAwe',
   },
 ];

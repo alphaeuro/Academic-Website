@@ -33,7 +33,7 @@ const About = () => {
         </div>
         <div className="text-container">
           <h1>Dr Somnath Ghosal</h1>
-          <h4>Assistant Professor<br/>Centre for Rural Development & Innovative Sustainable Technology,<br/>IIT Kharagpur</h4>
+          <h4>Assistant Professor<br/>Centre for Rural Development & Innovative Sustainable Technology<br/>IIT Kharagpur</h4>
           <div className="contact-icons">
             <a href="tel:+91(0)3222283894" className="icon-link"><FaPhone /> </a>
             <a href="mailto:drsomnathghosal@gmail.com" className="icon-link"><FaEnvelope /></a>
@@ -54,12 +54,12 @@ const About = () => {
           </div>
           <div className="education-item">
             <img src={ma} alt="Education 2" />
-            <p>MSc in Human Geography School of Geography, University of Nottingham, UK <br></br> 2006</p>
+            <p>MSc in Human Geography School of Geography<br></br> University of Nottingham, UK <br></br> 2006</p>
             {/* <p>2006</p> */}
           </div>
           <div className="education-item">
             <img src={Phd} alt="Education 3" />
-            <p>PhD in Environment & Society School of Geography, University of Nottingham, UK<br></br>2010</p>
+            <p>PhD in Environment & Society School of Geography<br></br>University of Nottingham, UK<br></br>2010</p>
             {/* <p>2010</p> */}
           </div>
         </div>
@@ -71,7 +71,7 @@ const About = () => {
           <div className="timeline-item">
             <div className="timeline-date" style={{ fontWeight: 'bold' }}>2008 - 2010</div>
             <div className="timeline-content">
-              <p>Graduate Level Teaching Assistant and Demonstrator School of Geography, University of Nottingham, UK</p>
+              <p>Graduate Level Teaching Assistant and Demonstrator School of Geography<br></br> University of Nottingham, UK</p>
             </div>
           </div>
           <div className="timeline-item">
@@ -85,7 +85,7 @@ const About = () => {
             <div className="timeline-date" style={{ fontWeight: 'bold' }}>2013 - 2014</div>
             <div className="timeline-content">
               {/* <h3>Position 2</h3> */}
-              <p>Fellow, Interdisciplinary Doctoral Fellowship <br></br> IDF Gurugram</p>
+              <p>Fellow <br></br> IDF Gurugram</p>
             </div>
           </div>
           <div className="timeline-item">
@@ -117,7 +117,7 @@ const About = () => {
             <div className="responsibility-details">
               {/* <h3>Responsibility 1</h3> */}
               <h4>September 2023 - December 2023</h4>
-              <p>Resource Person, upskilling Leadership Qualities of Sabhapaties for Rural Transformation and Modern Agricultural Practices, Department of Panchayats and Rural Development, Govt. of West Bengal.</p>
+              <p>Resource Person - Upskilling Leadership Qualities of Sabhapaties for Rural Transformation and Modern Agricultural Practices<br></br> Department of Panchayats and Rural Development, Govt. of West Bengal.</p>
             </div>
           </div>
           <div className="responsibility-item">
@@ -128,7 +128,7 @@ const About = () => {
             <div className="responsibility-details">
               {/* <h3>Responsibility 2</h3> */}
               <h4>2017-2019</h4>
-              <p>Member, National Level Monitoring Programme, Ministry of Rural Development, Government of India.</p>
+              <p>Member - National Level Monitoring Programme<br></br> Ministry of Rural Development, Government of India.</p>
             </div>
           </div>
           <div className="responsibility-item">
@@ -139,7 +139,7 @@ const About = () => {
             <div className="responsibility-details">
               {/* <h3>Responsibility 3</h3> */}
               <h4>April 2010 - June 2010</h4>
-              <p>Research Assistant for GIS4EU project, Centre for Geospatial Science (CGS), University of Nottingham, UK.</p>
+              <p>Research Assistant for GIS4EU project<br></br>Centre for Geospatial Science (CGS), University of Nottingham, UK.</p>
             </div>
           </div>
         </div>
