@@ -20,6 +20,7 @@ const Publications = () => {
             <ul>
               <li>Goswami, T. and Ghosal, S. (2022). From Rice Fields to Brackish Water Farms: Changing Livelihoods in Agrarian Coastal Bengal, India. Asia-Pacific Journal of Regional Science. Vol. 6 (2), p. 453 – 484. DOI: 10.1007/s41685-022-00229-8.</li>
               <li>Ghosh M, Ghosal S. (2021). Multidimensional Rural Livelihoods in Indian Sub-Himalaya: Regional Analysis, Households Well-Being and Its Determinants. International Journal of Rural Management, Vol. 19, p. 45 - 63. DOI: 10.1177/09730052211047639.</li>
+              <li>Ghosh, M. and Ghosal, S. (2021). Households’ Choices and Their Drivers to Rural Non-Farm Livelihood Diversification in West Bengal, India. Journal of Asian and African Studies, Vol. 57, p. 1158 - 1178. DOI: 10.1177/00219096211040592.</li>
               <li>Ghosh, M. and Ghosal, S. (2019). Living With Insecurity: A Critical Examination of the Environmental Problems Linked with Social Problems in Rural West Bengal, India. Romanian Journal of Geography, Vol. 63 (1), p. 53 - 64.</li>
               <li>Ghosal, S. (2013). Soft or Hard: Infrastructure Matters Rural Economic Empowerment. Journal of Infrastructure Development (Sage, ISSN: 0974-9306, eISSN: 0975-5969), Vol. 5 (2), p. 137 – 149.</li>
               <li>Ghosal, S. (2012). Integral Economics and the Exploration of Indigenous Knowledge. Corvinus Journal of Sociology and Social Policy (Corvinus University of Budapest, ISSN: 2062-087X), Vol. 3 (2), p. 83 – 105.</li>
@@ -27,21 +28,26 @@ const Publications = () => {
             </ul>
           <h2>Community Water Planning:</h2>
           <br></br>
+          <br></br>
             <ul>
               <li>Goswami, T. and Ghosal, S. (2023). Proposing Civil Structures for Managed Aquifer Recharge in Relevant Sites of Shilabati River: An Integrated Spatial Analysis. Environmental Earth Sciences, Vol. 82. DOI: 10.1007/s12665-023-11033-8.</li>
               <li>Ghosal, S. and Ruj, C. (2023). Societal Impact Analysis of Community Managed Potable Water Supply System in Rural India. Journal of Applied Social Science. Vol. 17 (1), p. 148 – 167. DOI: 10.1177/19367244221119140.</li>
+              <li>Goswami, T. and Ghosal, S. (2022). Domestic Water Poverty in a Semi-arid District of Eastern India: Multiple Dimensions, Regional Patterns, and Association with Human Development. Environmental Development, Vol. 44. DOI: 10.1016/j.envdev.2022.100742.</li>
               <li>Goswami, T. and Ghosal, S. (2022). Examining the Groundwater Level in a Semi-arid District of Eastern India: Spatiotemporal Trends, Determinants, and Future Prospects. Environment, Development and Sustainability, Vol. 25, p. 10929 - 10953. DOI: 10.1007/s10668-022-02512-2.</li>
               <li>Ruj, C., Majumdar, A. and Ghosal, S. (2022). Political Ecology and Hydro-social Relation: A Study on Drought and Associated Migration in a Semi-arid District of West Bengal, India. Letters in Spatial and Resource Sciences. Vol. 15, p. 709 – 734. DOI: 10.1007/s12076-022-00321-9.</li>
               <li>Goswami, T. and Ghosal, S. (2022). Understanding the Suitability of Two MCDM Techniques in Mapping the Groundwater Potential Zones of Semi-arid Bankura District in Eastern India. Groundwater for Sustainable Development, Vol. 17. DOI: 10.1016/j.gsd.2022.100727.</li>
               <li>Porley, V., Chatzisymeon, E., Meikap, B.C., Ghosal, S., Robertson, N. (2020). Field Testing of Low-cost Titania-based Photocatalysts for Enhanced Solar Disinfection (SODIS) in Rural India. Environmental Science: Water Research and Technology (Royal Society of Chemistry, London), 2020, 6, p. 809 - 816. DOI: 10.1039/C9EW01023H.</li>
             </ul>
+          <br></br>
           <h2>Public Health and Policy:</h2>
+          <br></br>
           <br></br>
             <ul>
               <li>Hasan, S. M. and Ghosal, S. (2023). Gender Differentials in the Choice of In-patient Healthcare Services among the Older Adults in India: A Cross-Sectional Study. The International Journal of Health Planning and Management, Vol. 38 (5), p. 1464 – 1482. DOI: 10.1002/hpm.3673.</li>
               <li>Hasan, S. M. and Ghosal, S. (2023). Informal Plastic Waste Recycling Firms in Rural Eastern India: Implications for Livelihood and Health. Clinical Epidemiology and Global Health, Vol. 21.</li>
             </ul>
           <h2>Social Forestry, and Biodiversity Conservation:</h2>
+          <br></br>
           <br></br>
             <ul>
               <li>Ghosal, S. and Goswami, T. (2024). Community Forest Dependency: Re-examining Established Thoughts with Empirical Evidence from Eastern India. European Journal of Forest Research. DOI: 10.1007/s10342-024-01659-z.</li>
@@ -50,10 +56,12 @@ const Publications = () => {
               <li>Ghosal, S. and Liu, J. (2018). The Chronology of Community Participation in Indian Forest Management. International Forestry Review (Commonwealth Forestry Association, Online ISSN: 2053-7778), Vol. 20 (1), p. 79 – 88.</li>
               <li>Ghosal, S. and Liu, J. (2017). Community Forest Dependency: Does Distance Matter? The Indian Forester (ISSN No. 0019-4816, Online ISSN: 2321-094X), Vol. 143 (5), p. 397 - 404.</li>
               <li>Ghosal, S. (2014). The Significance of the Non-Timber Forest Products Policy for Forest Ecology Management: A Case Study in West Bengal, India, Environmental Policy and Governance (John Wiley & Sons, Ltd., Online ISSN: 1756-9338), Vol. 24 (2), p. 108 – 121.</li>
+              <li>Ghosal, S. (2013). The Role of Formal Marketing Channels in NTFP Business. Journal of Sustainable Forestry (Taylor & Francis Group, Yale University School of Forestry and Environmental Studies, USA, ISSN: Print 1054-9811, Online 1540-756X), Vol. 32 (3), p. 310 – 328. Environment Progress.</li>
               <li>Ghosal, S. (2011). Pre-colonial and Colonial Forest Culture in the Presidency of Bengal. Human Geographies (University of Bucharest, ISSN: print 1843-6587, online 2067-2284), Vol. 5 (1), p. 107 – 116.</li>
               <li>Ghosal, S. (2011). Importance of Non-timber Forest Products in Native Household Economy. Journal of Geography and Regional Planning, Vol. 4, p. 159-168.</li>
             </ul>
           <h2>Environment, Climate Change Vulnerability, and Adaptation:</h2>
+          <br></br>
           <br></br>
             <ul>
               <li>Ghosh, M. and Ghosal, S. (2023). Geographies of Vulnerability to Climate Change: Empirical Evidence from the Indian Himalayan Foothills. Asia-Pacific Journal of Regional Science, Vol. 7, p. 405 – 431. DOI: 10.1007/s41685-022-00273-4.</li>
@@ -62,7 +70,9 @@ const Publications = () => {
               <li>Ghosh, M. and Ghosal, S. (2021). India's Domestic Climate Policy: Past, Present and Future Strategies. Annals of the National Association of Geographers, India (Delhi School of Economics, ISSN: 0970-972X), Vol. 41 (1), p. 156 – 175.</li>
               <li>Ghosh, M. and Ghosal, S. (2020). Determinants of Household Livelihood Vulnerabilities to Climate Change in the Himalayan Foothills of West Bengal, India. International Journal of Disaster Risk Reduction, Vol. 50. DOI: 10.1016/j.ijdrr.2020.101706. </li>
             </ul>
+          <br></br>
           <h2>Regional Planning:</h2>
+          <br></br>
           <br></br>
             <ul>
               <li>Chakraborty, P. and Ghosal, S. (2024). An Eco-social Exploration of Tourism Area Evolution in Mountains through Stakeholders’ Perspective. Environmental Development, Vol. 49. DOI: 10.1016/j.envdev.2024.100963.</li>
@@ -71,6 +81,7 @@ const Publications = () => {
               <li>Ghosal, S., Lin, N. and Cross, I. (2010). The Role of Open-Source Software for Handling INSPIRE-compliant Data. Geoinformatics (CMedia B.V., Netherlands, ISSN: 1387-0858), Vol. 13 (8), p. 16 – 22.  </li>
             </ul>
           <h2>Theoretical:</h2>
+          <br></br>
           <br></br>
             <ul>
               <li>Ghosal, S. (2009). Is Nature ‘Cultural’ or ‘Produced’: An Exploratory Analysis Based on Recent Human Geographical Studies. Annals of the National Association of Geographers, India (Delhi School of Economics, ISSN: 0970-972X), Vol. 29 (1), p. 89 – 96.</li>
@@ -93,9 +104,10 @@ const Publications = () => {
               <li>Unravelling the Impact of Land Use Transformation on Thermal Environment across Seasons: A Comprehensive Study of Rapidly Urbanizing Patna Planning Area, India. Environmental Research.</li>
             </ul> */}
         </div>
-        <h1>Book:</h1>
+        
         <div className="publi-content">
           <h2>Book Chapter and Conference Proceedings:</h2>
+          <br></br>
           <br></br>
             <ul>
               <li>Ghosal, S. (2023). Changing the Geography of Indian Rurality: By Force or Choice (p. 302 – 313). 46th Indian Social Science Congress, p. 302 – 313. Bharathidasan University, Tiruchirappalli, India.</li>
@@ -108,9 +120,37 @@ const Publications = () => {
               <li>Ghosal, S., Watkins, C. and Jewitt, S. (2010). Marketing of Non-Timber Forest Products Produced in Dry-Deciduous Forest of West Bengal, India. The XIII World Forestry Congress Proceedings, Buenos Aires, Argentina.</li>
             </ul>
         </div>
+        
+        <h1>Book:</h1>
+        <div className="image-pub-container">
+          <img src="https://rukminim2.flixcart.com/image/850/1000/jpsnma80/book/2/9/3/sustainable-forestry-people-culture-and-economics-original-imafbyhvz8nz3apz.jpeg?q=90&crop=false" alt="Jane Writer" className="pub-image" />
+        </div>
+        <br></br>
+        <h1>Invited Presentations:</h1>
+        <div className="publi-content">
+          <br></br>
+          
+            <ul>
+              <li>‘Community Driven Knowledge Sharing and Capacity Building: A Grassroots Level Success Story’. National Social Organizations and Institutions Meet, IISF - 2022, MANIT, Bhopal (21st – 23rd January, 2023).</li>
+              <li>‘The Road Ahead for Next 25 Years of Indian Science and Technology. Festival of Science & Technology – Vigyan Sarvatra Pujyate, Nagaland Science and Technology Council (NASTEC), Kohima, Nagaland (22nd - 28th February, 2022).</li>
+              <li>‘Contribution of Contemporary Indian Geographers for Commons Prosperity’. Plenary Talk at International E-Conference on “Geography for People, Planet, Prosperity and Peace”, Savitribai Phule Pune University, and IIG (4th - 6th October, 2021).</li>
+              <li>‘Planning Distributive Growth Through Community Driven Potable Water System'. Water Conclave, IISF 2020 (24th December, 2020).</li>
+              <li>'How I Do Science with Commons'. India International Science Festival 2019, Biswa Bangla Convention Centre, Kolkata (5th - 8th November, 2019).</li>
+              <li>‘Rural Skill Development for Livelihood Generation’. Indo-German Chambers of Commerce, SREI Foundation, Kolkata (16th October, 2017).</li>
+              <li>‘A Window for Better Quality of Life’. Manipal University, Jaipur (15th November, 2016).</li>
+              <li>‘Sustainable Marketing of Forest Products: Rediscovering Rural Economic Opportunities’. IIT Bombay (28th March, 2014).</li>
+              <li>‘Woodlands: A Space for Trade’. Delhi School of Economics, University of Delhi (24th January, 2014).</li>
+              <li>‘Institutionalisation of Green Business: An Initiative towards Saving Environment’. Royal Holloway, University of London, UK (2nd October, 2013).</li>
+              <li>‘Exploring Entrepreneurial Opportunities for Afforestation’. Institute of Economic Growth (IEG), Delhi (3rd July, 2013).</li>
+              <li>‘Go for a ‘Green City’: Environment, Legislation and Liability’. Workshop on Legislation for environment and climate change: Focus on urban greens, parks and garden, American Information Centre, Kolkata (5th December, 2012).</li>
+              <li>‘Participatory Appraisal: A New Approach for Social Science Research’. Indian Institute of Bio-Social Research and Development, Kolkata, India (2nd December, 2012).</li>
+            </ul>
+        </div>
+        <br></br>
         <h1>Conferences:</h1>
         <div className="publi-content">
           <h2>Conferences, Seminars, and Workshops:</h2>
+          <br></br>
           <br></br>
             <ul>
               <li>“Grassroots Models for Strengthening STI Capabilities in Community and to Improve Livelihood Generation”, NSOIM, IISF - 2023, DBT-Translational Health Science and Technology Institute (THSTI) RCB Campus, Faridabad, Haryana (17th – 19th January, 2024)</li>
@@ -131,9 +171,7 @@ const Publications = () => {
               <li>International Conference on ‘Emerging Technologies in Agricultural and Food Engineering’, IIT Kharagpur (27th – 30th December, 2016). Co-chaired Technical session ‘Environmental Remediation Technologies’.</li>
             </ul>
         </div>
-        <div className="image-pub-container">
-          <img src="https://rukminim2.flixcart.com/image/850/1000/jpsnma80/book/2/9/3/sustainable-forestry-people-culture-and-economics-original-imafbyhvz8nz3apz.jpeg?q=90&crop=false" alt="Jane Writer" className="pub-image" />
-        </div>
+        <br></br>
       </div>
     </div>
   );
